@@ -65,6 +65,14 @@
                 }
             }
             Console.WriteLine("Akkauntga Mufaqiyatli kirdingiz");
+            foreach (string element in passwords)
+            {
+                Console.Write("Passwords:" +element);
+            }            
+            foreach (string element in usernames)
+            {
+                Console.WriteLine("Usernames:" + element);
+            }
 
             
 
